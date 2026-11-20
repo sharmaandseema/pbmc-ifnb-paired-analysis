@@ -1,0 +1,54 @@
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26300)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8 
+[2] LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: Europe/Rome
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] rappdirs_0.3.4              generics_0.1.4             
+ [3] SparseArray_1.12.3          BiocVersion_3.23.1         
+ [5] RSQLite_3.53.3              lattice_0.22-9             
+ [7] magrittr_2.0.5              grid_4.6.1                 
+ [9] fastmap_1.2.0               blob_1.3.0                 
+[11] AnnotationHub_4.2.2         Matrix_1.7-5               
+[13] AnnotationDbi_1.74.0        muscData_1.26.0            
+[15] DBI_1.3.0                   limma_3.68.5               
+[17] BiocManager_1.30.27         httr_1.4.9                 
+[19] Biostrings_2.80.2           httr2_1.3.0                
+[21] abind_1.4-8                 cli_3.6.6                  
+[23] crayon_1.5.3                rlang_1.3.0                
+[25] dbplyr_2.6.0                XVector_0.52.0             
+[27] Biobase_2.72.0              bit64_4.8.6                
+[29] yaml_2.3.12                 cachem_1.1.0               
+[31] DelayedArray_0.38.2         otel_0.3.0                 
+[33] S4Arrays_1.12.1             tools_4.6.1                
+[35] memoise_2.0.1               dplyr_1.2.1                
+[37] filelock_1.0.3              locfit_1.5-9.12            
+[39] SummarizedExperiment_1.42.0 ExperimentHub_3.2.2        
+[41] BiocGenerics_0.58.1         curl_8.1.0                 
+[43] png_0.1-9                   vctrs_0.7.3                
+[45] R6_2.6.1                    matrixStats_1.5.0          
+[47] stats4_4.6.1                BiocFileCache_3.2.0        
+[49] lifecycle_1.0.5             KEGGREST_1.52.2            
+[51] Seqinfo_1.2.0               S4Vectors_0.50.3           
+[53] edgeR_4.10.7                IRanges_2.46.0             
+[55] bit_4.6.0                   pkgconfig_2.0.3            
+[57] pillar_1.11.1               glue_1.8.1                 
+[59] statmod_1.5.2               tibble_3.3.1               
+[61] GenomicRanges_1.64.0        tidyselect_1.2.1           
+[63] rstudioapi_0.19.0           MatrixGenerics_1.24.0      
+[65] compiler_4.6.1             

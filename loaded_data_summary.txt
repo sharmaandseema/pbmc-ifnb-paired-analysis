@@ -1,0 +1,12 @@
+class: SingleCellExperiment 
+dim: 35635 29065 
+metadata(0):
+assays(1): counts
+rownames(35635): MIR1302-10 FAM138A ... MT-ND6 MT-CYB
+rowData names(2): ENSEMBL SYMBOL
+colnames(29065): AAACATACAATGCC-1 AAACATACATTTCC-1 ...
+  TTTGCATGGTTTGG-1 TTTGCATGTCTTAC-1
+colData names(5): ind stim cluster cell multiplets
+reducedDimNames(1): TSNE
+mainExpName: NULL
+altExpNames(0):

@@ -1,0 +1,339 @@
+New output folder: C:/Users/sharm/Documents/PBMC_IFNB_project/results/rerun_20261120_112453_1d083a8797 
+class: SingleCellExperiment 
+dim: 35635 29065 
+metadata(0):
+assays(1): counts
+rownames(35635): MIR1302-10 FAM138A ... MT-ND6 MT-CYB
+rowData names(2): ENSEMBL SYMBOL
+colnames(29065): AAACATACAATGCC-1 AAACATACATTTCC-1 ...
+  TTTGCATGGTTTGG-1 TTTGCATGTCTTAC-1
+colData names(5): ind stim cluster cell multiplets
+reducedDimNames(1): TSNE
+mainExpName: NULL
+altExpNames(0):
+[1] 35635 29065
+[1] 35635 29065
+                  ind stim cluster            cell multiplets
+AAACATACAATGCC-1  107 ctrl       5     CD4 T cells    doublet
+AAACATACATTTCC-1 1016 ctrl       9 CD14+ Monocytes    singlet
+AAACATACCAGAAA-1 1256 ctrl       9 CD14+ Monocytes    singlet
+AAACATACCAGCTA-1 1256 ctrl       9 CD14+ Monocytes    doublet
+AAACATACCATGCA-1 1488 ctrl       3     CD4 T cells    singlet
+AAACATACCTCGCT-1 1256 ctrl       9 CD14+ Monocytes    singlet
+      
+       ctrl stim
+  101  1027 1363
+  107   645  641
+  1015 3138 2703
+  1016 2180 1998
+  1039  552  797
+  1244 2250 1755
+  1256 2451 2275
+  1488 2376 2914
+[1] "ind"        "stim"       "cluster"    "cell"       "multiplets"
+                  ind stim cluster            cell multiplets
+AAACATACAATGCC-1  107 ctrl       5     CD4 T cells    doublet
+AAACATACATTTCC-1 1016 ctrl       9 CD14+ Monocytes    singlet
+AAACATACCAGAAA-1 1256 ctrl       9 CD14+ Monocytes    singlet
+AAACATACCAGCTA-1 1256 ctrl       9 CD14+ Monocytes    doublet
+AAACATACCATGCA-1 1488 ctrl       3     CD4 T cells    singlet
+AAACATACCTCGCT-1 1256 ctrl       9 CD14+ Monocytes    singlet
+
+   ambs doublet singlet 
+   1217    3169   24679 
+[1] 35635 24679
+      
+       ctrl stim
+  101   858 1166
+  107   517  525
+  1015 2738 2352
+  1016 1723 1635
+  1039  461  647
+  1244 1879 1464
+  1256 2108 2026
+  1488 2031 2549
+      
+       ctrl stim
+  101  83.5 85.5
+  107  80.2 81.9
+  1015 87.3 87.0
+  1016 79.0 81.8
+  1039 83.5 81.2
+  1244 83.5 83.4
+  1256 86.0 89.1
+  1488 85.5 87.5
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    562     975    1246    1567    1816   11819 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   12.0   442.0   519.0   574.9   652.0  2760.0 
+                  ind stim           cell total_counts detected_genes
+GCCACTACAGGTTC-1 1039 ctrl Megakaryocytes          763             12
+   HBB   HBA2   HBA1   YBX1 MALAT1  RPL11  RPS14  GBGT1 RPL27A  RPL21   CCL7 
+   660     79     11      4      2      1      1      1      1      1      1 
+  OAZ1 
+     1 
+[1] 763
+ [1] "MT-ND1"  "MT-ND2"  "MT-CO1"  "MT-CO2"  "MT-ATP8" "MT-ATP6" "MT-CO3" 
+ [8] "MT-ND3"  "MT-ND4L" "MT-ND4"  "MT-ND5"  "MT-ND6"  "MT-CYB" 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       0       0       0       0       0 
+                 total_counts detected_genes mito_percent
+GCCACTACAGGTTC-1          763             12            0
+ MT-ND1  MT-ND2  MT-CO1  MT-CO2 MT-ATP8 MT-ATP6  MT-CO3  MT-ND3 MT-ND4L 
+      0       0       0       0       0       0       0       0       0 
+ MT-ND4  MT-ND5  MT-ND6  MT-CYB 
+      0       0       0       0 
+ MT-ND1  MT-ND2  MT-CO1  MT-CO2 MT-ATP8 MT-ATP6  MT-CO3  MT-ND3 MT-ND4L 
+      0       0       0       0       0       0       0       0       0 
+ MT-ND4  MT-ND5  MT-ND6  MT-CYB 
+      0       0       0       0 
+[1] 35635  5385
+      
+       ctrl stim
+  101   202  253
+  107   209  169
+  1015  779  671
+  1016  369  329
+  1039  126  165
+  1244  415  290
+  1256  390  375
+  1488  295  348
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    563    1581    2257    2350    2978    7814 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   22.0   524.0   669.0   687.6   828.0  2050.0 
+       Group Profiles Below200 Below300 Pct200 Pct300
+1   101_ctrl      202        0        2    0.0    1.0
+2   101_stim      253        0        3    0.0    1.2
+3   107_ctrl      209        0        2    0.0    1.0
+4   107_stim      169        0        2    0.0    1.2
+5  1015_ctrl      779        0       11    0.0    1.4
+6  1015_stim      671        0       15    0.0    2.2
+7  1016_ctrl      369        0        3    0.0    0.8
+8  1016_stim      329        0        4    0.0    1.2
+9  1039_ctrl      126       14       15   11.1   11.9
+10 1039_stim      165       15       17    9.1   10.3
+11 1244_ctrl      415        0        3    0.0    0.7
+12 1244_stim      290        0        7    0.0    2.4
+13 1256_ctrl      390        0        6    0.0    1.5
+14 1256_stim      375        0        6    0.0    1.6
+15 1488_ctrl      295        1       24    0.3    8.1
+16 1488_stim      348        0       11    0.0    3.2
+                  ind stim total_counts detected_genes globin3_percent
+AGGAACCTCATTGG-1 1039 ctrl         3264             68        96.44608
+AGGGCGCTTACTGG-1 1039 ctrl         3165             84        90.23697
+AGTCTTACCTGTTT-1 1488 ctrl          644            193         0.00000
+ATATGCCTCCTCCA-1 1039 ctrl         2321             51        97.07023
+ATCGGTGAATCGAC-1 1039 ctrl         1823             51        95.61163
+CAAGGACTGCTAAC-1 1039 ctrl         4273            118        93.86848
+GAACTGTGCAGAGG-1 1039 ctrl         2865             64        96.12565
+GATCTACTTTGACG-1 1039 ctrl         1064             22        97.36842
+GCCATGCTAAACAG-1 1039 ctrl         4110            135        93.74696
+GTCCACACCTTCGC-1 1039 ctrl         1662             56        94.58484
+GTTGAGTGTAGCCA-1 1039 ctrl         2201             70        95.18401
+TACATAGACTTAGG-1 1039 ctrl         1909             59        96.12362
+TCAGTTACATGACC-1 1039 ctrl         2555             51        96.90802
+TCTAACACACCACA-1 1039 ctrl         2566             61        96.33671
+TGTGGATGGGACAG-1 1039 ctrl         1897             43        81.12810
+AATCTCACACCTAG-1 1039 stim         4031            108        76.08534
+ACCTATTGGTGCAT-1 1039 stim         3132            114        92.78416
+ACGGAGGATCCTCG-1 1039 stim         2295             55        96.03486
+AGCGGCTGCTGTGA-1 1039 stim          827             40        94.07497
+AGTACGTGGTCGAT-1 1039 stim         3464             74        96.50693
+ATACTCTGGTACAC-1 1039 stim         2555             58        96.32094
+CACAGAACTAACCG-1 1039 stim         1844             62        77.54881
+CACTCTCTTGCTTT-1 1039 stim         1548             43        96.77003
+CACTGCACCGATAC-1 1039 stim         2894             80        91.49965
+CATCAGGACAGAGG-1 1039 stim         2485             69        96.05634
+CGCATAGAGTTACG-1 1039 stim         2621             77        94.73483
+CGCGAGACGCTTAG-1 1039 stim         3162             75        96.04681
+CGGCACGATACTTC-1 1039 stim         3704             94        95.89633
+GTATGGTGAGCTAC-1 1039 stim         1304             30        97.46933
+TGACGAACAATGCC-1 1039 stim         4815            122        95.09865
+[1] 35635  5355
+      
+       ctrl stim
+  101   202  253
+  107   209  169
+  1015  779  671
+  1016  369  329
+  1039  112  150
+  1244  415  290
+  1256  390  375
+  1488  294  348
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    0.00    0.00    0.13    0.00   69.25 
+                  ind stim total_counts detected_genes globin3_percent
+CAGACATGACGGTT-1 1488 ctrl         3590            368        69.24791
+ACAGTTCTGACGTT-1 1015 stim         5070            554        64.41815
+GCTCAGCTTCGTGA-1 1244 stim         2075            318        60.86747
+CTGAGCCTCTGTTT-1 1015 stim         2868            513        59.06555
+AATGGCTGTGGTTG-1  107 ctrl         5290            632        57.37240
+GTTATAGACTATTC-1 1256 ctrl         6182            805        51.73083
+GAAGCTTGACTACG-1 1016 stim         3813            601        51.16706
+ATTGCACTTGTCGA-1 1015 ctrl         3826            656        49.50340
+ACCCACTGAAACGA-1 1256 stim         5983            943        42.82133
+ACGGAACTGTTCAG-1 1488 ctrl         2993            650        39.99332
+    Gene Present
+1   CD14    TRUE
+2    LYZ    TRUE
+3 S100A9    TRUE
+                  ind stim total_counts detected_genes globin3_percent CD14
+CAGACATGACGGTT-1 1488 ctrl         3590            368        69.24791    2
+ACAGTTCTGACGTT-1 1015 stim         5070            554        64.41815    0
+GCTCAGCTTCGTGA-1 1244 stim         2075            318        60.86747    0
+CTGAGCCTCTGTTT-1 1015 stim         2868            513        59.06555    0
+AATGGCTGTGGTTG-1  107 ctrl         5290            632        57.37240   14
+GTTATAGACTATTC-1 1256 ctrl         6182            805        51.73083    4
+GAAGCTTGACTACG-1 1016 stim         3813            601        51.16706    6
+ATTGCACTTGTCGA-1 1015 ctrl         3826            656        49.50340    2
+ACCCACTGAAACGA-1 1256 stim         5983            943        42.82133    4
+ACGGAACTGTTCAG-1 1488 ctrl         2993            650        39.99332    5
+                 LYZ S100A9
+CAGACATGACGGTT-1   4      5
+ACAGTTCTGACGTT-1   1      2
+GCTCAGCTTCGTGA-1   4      3
+CTGAGCCTCTGTTT-1   0      0
+AATGGCTGTGGTTG-1   7     17
+GTTATAGACTATTC-1   1      8
+GAAGCTTGACTACG-1   2      1
+ATTGCACTTGTCGA-1   1      1
+ACCCACTGAAACGA-1  14      1
+ACGGAACTGTTCAG-1  15     12
+
+FALSE  TRUE 
+ 5348     7 
+[1] 35635    16
+          Sample_ID Donor_ID Condition Profiles Total_UMIs
+101_ctrl   101_ctrl      101      ctrl      202     524723
+101_stim   101_stim      101      stim      253     726512
+107_ctrl   107_ctrl      107      ctrl      209     469563
+107_stim   107_stim      107      stim      169     436403
+1015_ctrl 1015_ctrl     1015      ctrl      779    1685517
+1015_stim 1015_stim     1015      stim      671    1681881
+1016_ctrl 1016_ctrl     1016      ctrl      369     721958
+1016_stim 1016_stim     1016      stim      329     707388
+1039_ctrl 1039_ctrl     1039      ctrl      112     270440
+1039_stim 1039_stim     1039      stim      150     422461
+1244_ctrl 1244_ctrl     1244      ctrl      415     970635
+1244_stim 1244_stim     1244      stim      290     720532
+1256_ctrl 1256_ctrl     1256      ctrl      390     987097
+1256_stim 1256_stim     1256      stim      375     988999
+1488_ctrl 1488_ctrl     1488      ctrl      294     525799
+1488_stim 1488_stim     1488      stim      348     735512
+[1] TRUE
+[1] 16  9
+[1] "(Intercept)"   "Donor_ID107"   "Donor_ID1015"  "Donor_ID1016" 
+[5] "Donor_ID1039"  "Donor_ID1244"  "Donor_ID1256"  "Donor_ID1488" 
+[9] "Conditionstim"
+[1] 9
+gene_filter
+FALSE  TRUE 
+31938  3697 
+[1] 3697   16
+   Sample_ID Library_UMIs TMM_factor Effective_library_size
+1   101_ctrl       502847  1.2513740               629249.7
+2   101_stim       706853  0.9514825               672558.2
+3   107_ctrl       452578  1.1305978               511683.7
+4   107_stim       425918  0.8417067               358498.0
+5  1015_ctrl      1621180  1.1817099              1915764.4
+6  1015_stim      1639091  0.8359305              1370166.1
+7  1016_ctrl       692297  1.2337957               854153.0
+8  1016_stim       687282  0.9523872               654558.6
+9  1039_ctrl       260215  1.1514082               299613.7
+10 1039_stim       411890  0.8278511               340983.6
+11 1244_ctrl       932027  1.1734420              1093679.6
+12 1244_stim       703241  0.7937172               558174.5
+13 1256_ctrl       951439  1.1127050              1058670.9
+14 1256_stim       964028  0.8440274               813666.0
+15 1488_ctrl       505734  1.1135113               563140.5
+16 1488_stim       717090  0.8189648               587271.4
+gene_filter
+FALSE  TRUE 
+31938  3697 
+[1] 3697   16
+     Gene    logFC    logCPM         F       PValue          FDR
+1    NEXN 6.657495  6.206352  566.6727 1.428957e-18 2.324643e-15
+2   NCOA7 6.666323  5.679574  565.9470 1.554992e-18 2.324643e-15
+3    GMPR 7.003551  7.021165  794.6683 1.886375e-18 2.324643e-15
+4    CD38 7.189446  7.467127  810.0915 4.254677e-18 3.932385e-15
+5  NT5C3A 5.777639  8.330696 1481.5943 1.143320e-17 8.453707e-15
+6   HESX1 8.579404  6.776840  578.3436 3.038696e-17 1.872343e-14
+7  IFITM1 6.121657  6.327503  626.5264 6.276154e-17 3.314706e-14
+8  DYNLT1 2.714553 10.421928 1087.3937 1.207461e-16 5.579979e-14
+9   NUPR1 8.164751  6.348631  536.1828 1.697671e-16 6.973656e-14
+10    SSB 3.384315  9.070121  999.5249 2.420340e-16 8.820090e-14
+Genes tested: 3697 
+Genes with BH FDR < 0.05: 2506 
+  Genes_tested FDR_below_005 Higher_in_stim Lower_in_stim
+1         3697          2506           1252          1254
+                     Analysis Profiles Genes_tested FDR_below_005
+1 At least 300 detected genes     5254         3687          2497
+  Higher_in_stim Lower_in_stim
+1           1246          1251
+                          Analysis Profiles Genes_tested FDR_below_005
+1 Exclude globin-majority profiles     5348         3696          2525
+  Higher_in_stim Lower_in_stim
+1           1260          1265
+                                 Metric     GE300 Globin_excluded
+                           Shared_genes 3687.0000       3696.0000
+                Tested_only_in_baseline   10.0000          1.0000
+             Tested_only_in_alternative    0.0000          0.0000
+                 LogFC_rank_correlation    0.9999          0.9997
+                 Same_direction_percent   99.7300         99.7800
+                  FDR_below_005_in_both 2484.0000       2502.0000
+            FDR_below_005_baseline_only   16.0000          4.0000
+         FDR_below_005_alternative_only   13.0000         23.0000
+ Significant_in_both_opposite_direction    0.0000          0.0000
+
+ALL ANALYSIS SUMMARIES
+                         Analysis Profiles Genes_tested FDR_below_005
+   Baseline: >=200 detected genes     5355         3697          2506
+      At least 300 detected genes     5254         3687          2497
+ Exclude globin-majority profiles     5348         3696          2525
+ Higher_in_stim Lower_in_stim
+           1252          1254
+           1246          1251
+           1260          1265
+
+HISTORICAL CHECKS
+                        Metric   Expected   Observed Matches
+               Features_loaded 35635.0000 35635.0000    TRUE
+               Profiles_loaded 29065.0000 29065.0000    TRUE
+                      Singlets 24679.0000 24679.0000    TRUE
+           CD14_before_gene_QC  5385.0000  5385.0000    TRUE
+             Baseline_profiles  5355.0000  5355.0000    TRUE
+               Baseline_tested  3697.0000  3697.0000    TRUE
+          Baseline_significant  2506.0000  2506.0000    TRUE
+               Baseline_higher  1252.0000  1252.0000    TRUE
+                Baseline_lower  1254.0000  1254.0000    TRUE
+                GE300_profiles  5254.0000  5254.0000    TRUE
+                  GE300_tested  3687.0000  3687.0000    TRUE
+             GE300_significant  2497.0000  2497.0000    TRUE
+                  GE300_higher  1246.0000  1246.0000    TRUE
+                   GE300_lower  1251.0000  1251.0000    TRUE
+               Globin_profiles  5348.0000  5348.0000    TRUE
+                 Globin_tested  3696.0000  3696.0000    TRUE
+            Globin_significant  2525.0000  2525.0000    TRUE
+                 Globin_higher  1260.0000  1260.0000    TRUE
+                  Globin_lower  1265.0000  1265.0000    TRUE
+  Original_mitochondrial_total     0.0000     0.0000    TRUE
+       Flagged_globin_majority     7.0000     7.0000    TRUE
+        GE300_rank_correlation     0.9999     0.9999    TRUE
+       Globin_rank_correlation     0.9997     0.9997    TRUE
+  GE300_same_direction_percent    99.7300    99.7300    TRUE
+ Globin_same_direction_percent    99.7800    99.7800    TRUE
+        GE300_significant_both  2484.0000  2484.0000    TRUE
+       Globin_significant_both  2502.0000  2502.0000    TRUE
+    GE300_opposite_significant     0.0000     0.0000    TRUE
+   Globin_opposite_significant     0.0000     0.0000    TRUE
+
+COMPARISON WITH EXISTING RESULT CSV FILES
+        Analysis Status Same_gene_set Numeric_match
+        Baseline  MATCH          TRUE          TRUE
+           GE300  MATCH          TRUE          TRUE
+ Globin_excluded  MATCH          TRUE          TRUE
+
+COMPLETED: historical checks and all three saved-result comparisons match.
+NEW output folder: C:/Users/sharm/Documents/PBMC_IFNB_project/results/rerun_20261120_112453_1d083a8797
+Existing results were not overwritten. No packages were installed.

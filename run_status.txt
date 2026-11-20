@@ -1,0 +1,1 @@
+COMPLETED: historical checks and all three saved-result comparisons match.

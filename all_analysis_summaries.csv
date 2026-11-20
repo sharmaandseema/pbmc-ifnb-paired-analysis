@@ -1,0 +1,4 @@
+"Analysis","Profiles","Genes_tested","FDR_below_005","Higher_in_stim","Lower_in_stim"
+"Baseline: >=200 detected genes",5355,3697,2506,1252,1254
+"At least 300 detected genes",5254,3687,2497,1246,1251
+"Exclude globin-majority profiles",5348,3696,2525,1260,1265
